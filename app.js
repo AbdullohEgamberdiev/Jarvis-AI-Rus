@@ -198,7 +198,7 @@ recognition.onresult = function (event) {
     readOut("открываю нетлифай сэр")
     window.open("https://app.netlify.com/teams/abdullohegamberdiev/overview?new_user=true")
   }
-  if (transcript.includes("открой google")){
+  if (transcript.includes("открой google") || transcript.includes("открой гугл")){
     readOut("открываю Google сэр, если вы хотите что-то найти, просто скажите мне")
     window.open("https://www.google.com/")
   }
